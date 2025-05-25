@@ -1,0 +1,107 @@
+{
+  "salgados": [
+    { 
+      "id": "1", 
+      "name": "Pão Francês",
+      "price": 0.80,
+      "delivery": "1.00", 
+      "rating": 5.0,
+      "image": "https://i.imgur.com/roGpdCq.png"
+    },
+    { 
+      "id": "2", 
+      "name": "mini pão de queijo",
+      "price": 0.40,
+      "delivery": "1.50", 
+      "rating": 5.0,
+      "image": "https://i.imgur.com/zphq9PC.png"
+    },
+    {
+      "id": "3", 
+      "name": "risóle de presunto e queijo",
+      "price": 5.00,
+      "delivery": "2.00", 
+      "rating": 4.8,
+      "image": "https://i.imgur.com/SyYV2S5.png"
+    },
+    { 
+      "id": "4", 
+      "name": "baguete de presunto e queijo",
+      "price": 10.00,
+      "delivery": "4.00", 
+      "rating": 4.8,
+      "image": "https://i.imgur.com/JMgnYD3.png"
+    },
+    { 
+      "id": "5", 
+      "name": "esfirra de carne",
+      "price": 7.00,
+      "delivery": "2.00", 
+      "rating": 4.8,
+      "image": "https://i.imgur.com/ZNDzRNu.png"
+    },
+     { 
+      "id": "6", 
+      "name": "coxinha de frango com requeijão",
+      "price": 7.00,
+      "delivery": "2.00", 
+      "rating": 4.8, 
+      "image": "https://i.imgur.com/UX4TAv7.png"
+    }		
+],
+"foods": [
+{
+      "id": "1", 
+      "name": "Bolo",
+      "price": 30.50,
+      "delivery": "5.00",
+      "rating": 4.8,		 
+      "image": "https://i.imgur.com/qfzftDO.jpeg"
+    },
+    { 
+      "id": "2", 
+      "name": "Marmitas express", 
+      "price": 22.00,
+      "time": "10-25 min",
+      "delivery": "5.00",
+      "rating": 5.0,
+      "image": "https://i.imgur.com/uXRuDFD.png"
+    },
+    {
+      "id": "3", 
+      "name": "Açai 300ml", 
+      "price": 15.30,
+      "time": "15-20 min",
+      "delivery": "5.00",
+      "rating": 4.4,
+      "image": "https://i.imgur.com/BaUUCkc.png"
+    },
+    { 
+      "id": "4", 
+      "name": "croissant",
+      "price": 8.50,
+      "time": "05-10 min",
+      "delivery": "5.00",
+      "rating": 4.8, 
+      "image": "https://i.imgur.com/FWWuLed.png"
+    },
+    { 
+      "id": "5", 
+      "name": "salgado",
+      "price": 8.50,
+      "time": "05-10 min",
+      "delivery": "5.00",
+      "rating": 4.3, 
+      "image": "https://i.imgur.com/Qyv1KAs.png"
+    },
+     { 
+      "id": "6", 
+      "name": "cup_cake",
+      "price": 2.50,
+      "time": "10-20 min",
+      "delivery": "5.00",
+      "rating": 4.8, 
+      "image": "https://i.imgur.com/dDqAtJ7.png"
+    }
+  ]
+}

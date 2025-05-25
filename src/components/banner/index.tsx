@@ -3,20 +3,21 @@ import PagerView from "react-native-pager-view";
 
 export function Banner() {
     return (
-        <View className="w-full px-4 mt-5 mb-4">
+        <View className="w-full h-36 md:h-60 px-4 mt-5 mb-4">
             <PagerView
-                style={{ height: 350 }} // altura do banner
+                style={{ height: 150 }} // altura do banner
                 initialPage={0}
                 pageMargin={10}
             >
+
                 <Pressable
-                    key="1"
-                    className="rounded-2xl overflow-hidden"
-                    onPress={() => console.log("CLICOU NO BANNER 1")}
+                    className="rounded-2xl md:h-60 overflow-hidden"
+                    key="2"
+                    onPress={() => console.log("CLICOU NO BANNER 2")}
                 >
                     <Image
-                        source={require("../../assets/padoca.jpeg")} // use sua imagem real aqui
-                        className="w-full h-full rounded-full border-4"
+                        source={require("../../assets/paes.jpg")} // use sua imagem real aqui
+                        className="w-full h-full md:h-60 rounded-t-full"
                         resizeMode="contain"
                     />
                 </Pressable>
