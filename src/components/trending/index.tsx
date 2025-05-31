@@ -7,10 +7,8 @@ export interface FoodProps{
   name: string;
   price: number;
   time: number;
-  delivery: number;
   rating: number;
   image: string;
-  salgadosId: string;
 }
 
 export function Trendingfoods() {

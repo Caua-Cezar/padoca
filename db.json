@@ -4,7 +4,6 @@
       "id": "1", 
       "name": "Pão Francês",
       "price": 0.80,
-      "delivery": "1.00", 
       "rating": 5.0,
       "image": "https://i.imgur.com/roGpdCq.png"
     },
@@ -12,7 +11,6 @@
       "id": "2", 
       "name": "mini pão de queijo",
       "price": 0.40,
-      "delivery": "1.50", 
       "rating": 5.0,
       "image": "https://i.imgur.com/zphq9PC.png"
     },
@@ -20,7 +18,6 @@
       "id": "3", 
       "name": "risóle de presunto e queijo",
       "price": 5.00,
-      "delivery": "2.00", 
       "rating": 4.8,
       "image": "https://i.imgur.com/SyYV2S5.png"
     },
@@ -28,7 +25,6 @@
       "id": "4", 
       "name": "baguete de presunto e queijo",
       "price": 10.00,
-      "delivery": "4.00", 
       "rating": 4.8,
       "image": "https://i.imgur.com/JMgnYD3.png"
     },
@@ -36,7 +32,6 @@
       "id": "5", 
       "name": "esfirra de carne",
       "price": 7.00,
-      "delivery": "2.00", 
       "rating": 4.8,
       "image": "https://i.imgur.com/ZNDzRNu.png"
     },
@@ -44,7 +39,6 @@
       "id": "6", 
       "name": "coxinha de frango com requeijão",
       "price": 7.00,
-      "delivery": "2.00", 
       "rating": 4.8, 
       "image": "https://i.imgur.com/UX4TAv7.png"
     }		
@@ -54,7 +48,6 @@
       "id": "1", 
       "name": "Bolo",
       "price": 30.50,
-      "delivery": "5.00",
       "rating": 4.8,		 
       "image": "https://i.imgur.com/qfzftDO.jpeg"
     },
@@ -63,7 +56,6 @@
       "name": "Marmitas express", 
       "price": 22.00,
       "time": "10-25 min",
-      "delivery": "5.00",
       "rating": 5.0,
       "image": "https://i.imgur.com/uXRuDFD.png"
     },
@@ -72,7 +64,6 @@
       "name": "Açai 300ml", 
       "price": 15.30,
       "time": "15-20 min",
-      "delivery": "5.00",
       "rating": 4.4,
       "image": "https://i.imgur.com/BaUUCkc.png"
     },
@@ -81,7 +72,6 @@
       "name": "croissant",
       "price": 8.50,
       "time": "05-10 min",
-      "delivery": "5.00",
       "rating": 4.8, 
       "image": "https://i.imgur.com/FWWuLed.png"
     },
@@ -90,7 +80,6 @@
       "name": "salgado",
       "price": 8.50,
       "time": "05-10 min",
-      "delivery": "5.00",
       "rating": 4.3, 
       "image": "https://i.imgur.com/Qyv1KAs.png"
     },
@@ -99,9 +88,163 @@
       "name": "cup_cake",
       "price": 2.50,
       "time": "10-20 min",
-      "delivery": "5.00",
       "rating": 4.8, 
       "image": "https://i.imgur.com/dDqAtJ7.png"
+    }
+  ],
+  "salgadinhos": [
+    {
+      "id": "1", 
+      "name": "Pringles Original",
+      "price": 25.00,
+      "rating": 5.0,
+      "image": "https://i.imgur.com/kgLMgZx.png"
+    },
+    { 
+      "id": "2", 
+      "name": "pringles creme de cebola",
+      "price": 26.00,
+      "rating": 5.0,
+      "image": "https://i.imgur.com/ReC3nh8.png"
+    },
+    {
+      "id": "3", 
+      "name": "sagadinho cebolitos",
+      "price": 5.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/r4qKbvi.png"
+    },
+    { 
+      "id": "4", 
+      "name": "Salgadinho Lays Classico",
+      "price": 15.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/N1lTm4P.png "
+    },
+    { 
+      "id": "5", 
+      "name": "Salgadinho Ruffles",
+      "price": 7.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/uXLBWLa.png"
+    }		
+  ],
+  "bolos": [
+    {
+      "id": "1", 
+      "name": "Bolo Vulcão de Chocolate",
+      "price": 25.00,
+      "rating": 5.0,
+      "image": "https://i.imgur.com/RtH17vU.jpeg"
+    },
+    { 
+      "id": "2", 
+      "name": "bolo de cenoura",
+      "price": 20.00,
+      "rating": 5.0,
+      "image": "https://i.imgur.com/Rh54O9M.jpeg"
+    },
+    {
+      "id": "3", 
+      "name": "Bolo de Fuba",
+      "price": 20.00, 
+      "rating": 4.8,
+      "image": "https://i.imgur.com/qfzftDO.jpeg"
+    },
+    { 
+      "id": "4", 
+      "name": "Ana Maria Gotas de Chocolate",
+      "price": 4.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/N6P7kMu.png"
+    },
+    { 
+      "id": "5", 
+      "name": "Ana Maria Triplo Chocolate",
+      "price": 7.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/RCeTYE2.png"
+    },
+    { 
+      "id": "6", 
+      "name": "Ana Maria Banoffe",
+      "price": 7.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/xekNkHX.png"
+    }
+  ],
+  "doces": [
+    {
+      "id": "1", 
+      "name": "Batom de Chocolate",
+      "price": 2.50,
+      "rating": 5.0,
+      "image": "https://i.imgur.com/P4OQhSz.png"
+    },
+    { 
+      "id": "2", 
+      "name": "MM",
+      "price": 6.00, 
+      "rating": 5.0,
+      "image": "https://i.imgur.com/wnu1qKn.png"
+    },
+    {
+      "id": "3", 
+      "name": "Tic Tac",
+      "price": 2.50, 
+      "rating": 4.8,
+      "image": "https://i.imgur.com/4frIpJ0.png"
+    },
+    { 
+      "id": "4", 
+      "name": "Frutella",
+      "price": 4.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/0ljHOAg.png"
+    },
+    { 
+      "id": "5", 
+      "name": "Mentos",
+      "price": 7.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/lOQWaRI.png"
+    }
+  ],
+  "bebida": [
+    {
+      "id": "1", 
+      "name": "Água Mineral Minalba ",
+      "price": 4.50,
+      "rating": 5.0,
+      "image": "https://i.imgur.com/pfLQp6L.png"
+    },
+    { 
+      "id": "2", 
+      "name": "Água com Gás Minalba",
+      "price": 5.00,
+      "rating": 5.0,
+      "image": "https://i.imgur.com/S7lSv8W.png"
+    },
+    {
+      "id": "3", 
+      "name": "Coca Cola 2L",
+      "price": 12.50, 
+      "rating": 4.8,
+      "image": "https://i.imgur.com/51utNvS.png"
+    },
+    { 
+      "id": "4", 
+      "name": "Coca-Cola Zero 2L",
+      "price": 14.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/G6kQXFf.png"
+    },
+    { 
+      "id": "5", 
+      "name": "Monster Energético",
+      "price": 11.00,
+      "rating": 4.8,
+      "image": "https://i.imgur.com/xNV6tua.png"
     }
   ]
 }

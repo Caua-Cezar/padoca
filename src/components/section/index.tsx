@@ -2,7 +2,7 @@ import { Pressable, Text, View } from 'react-native';
 
 interface Props{
   name: string;
-  size: "text-lg" | "text-xl" | "text-2xl";
+  size: "text-lg" | "text-xl" | "text-2xl" | "text-xs" | "text-sm";
   label: string;
   action: () => void;
 }

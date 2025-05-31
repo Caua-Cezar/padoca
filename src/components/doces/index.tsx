@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { FlatList } from 'react-native';
-import { SalgadosItem } from './horizontal';
+import { DocesItem } from './horizontal_4';
 
-export interface SalgadosProps{
+export interface docesProps{
   id: string;
   name: string;
   price: number;
@@ -10,16 +10,15 @@ export interface SalgadosProps{
   image: string;
 }
 
+export function Doces() {
 
-export function Salgados() {
-
-  const [salgados, setSalgados] = useState<SalgadosProps[]>([])
+  const [doces, setdoces] = useState<docesProps[]>([])
 
   useEffect(() => {
     async function getFoods() {
-      const response = await fetch("http://192.168.0.219:3000/salgados")
+      const response = await fetch("http://192.168.0.219:3000/doces")
       const data = await response.json()
-      setSalgados(data);
+      setdoces(data);
   }
 
   getFoods();
@@ -27,8 +26,8 @@ export function Salgados() {
   
  return (
    <FlatList
-      data={salgados}
-      renderItem={({ item }) => <SalgadosItem item={item} /> }
+      data={doces}
+      renderItem={({ item }) => <DocesItem item={item} /> }
       horizontal={true}
       contentContainerStyle={{ gap: 14, paddingLeft: 16, paddingRight: 16}}
       showsHorizontalScrollIndicator={false}
