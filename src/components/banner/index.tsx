@@ -16,7 +16,7 @@ export function Banner() {
                     onPress={() => console.log("CLICOU NO BANNER 2")}
                 >
                     <Image
-                        source={require("../../assets/paes.jpg")} // use sua imagem real aqui
+                        source={require("../../assets/paes.jpg")}
                         className="w-full h-full md:h-60 rounded-t-full"
                         resizeMode="contain"
                     />

@@ -17,7 +17,7 @@ export function Bebidas() {
 
   useEffect(() => {
     async function getFoods() {
-      const response = await fetch("http://192.168.0.219:3000/bebida")
+      const response = await fetch("http://10.0.3.106:3000/bebida")
       const data = await response.json()
       setbebidas(data);
   }

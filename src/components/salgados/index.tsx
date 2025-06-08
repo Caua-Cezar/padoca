@@ -17,7 +17,7 @@ export function Salgados() {
 
   useEffect(() => {
     async function getFoods() {
-      const response = await fetch("http://192.168.0.219:3000/salgados")
+      const response = await fetch("http://10.0.3.106:3000/salgados")
       const data = await response.json()
       setSalgados(data);
   }
