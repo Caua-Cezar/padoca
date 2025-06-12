@@ -16,7 +16,7 @@ export function Doces() {
 
   useEffect(() => {
     async function getFoods() {
-      const response = await fetch("http://10.0.3.106:3000/doces")
+      const response = await fetch("http://192.168.104.34:3000/doces")
       const data = await response.json()
       setdoces(data);
   }
